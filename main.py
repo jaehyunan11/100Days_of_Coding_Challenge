@@ -35,13 +35,28 @@
 # a = b
 # b = c
 
-#1. Create a greeting for your porgram
-print("Welcome to the band name generator.")
-#2 Ask the user for the city that they grew up in
-city = input("Which city did you grow up in?\n")
-#3 Ask the user for the name of a pet
-pet = input("What is the name of a pet?\n")
-#4 Combine the name of their city and pet and show them their band name
-print("Your band name could be " + city + " " + pet)
-#5 Make sure the input cursor shows on a new line, 
-# put \n 
+# #1. Create a greeting for your porgram
+# print("Welcome to the band name generator.")
+# #2 Ask the user for the city that they grew up in
+# city = input("Which city did you grow up in?\n")
+# #3 Ask the user for the name of a pet
+# pet = input("What is the name of a pet?\n")
+# #4 Combine the name of their city and pet and show them their band name
+# print("Your band name could be " + city + " " + pet)
+# #5 Make sure the input cursor shows on a new line, 
+# # put \n 
+
+from Day2 import main
+
+m = main
+
+# main.first()
+# main.test1()
+# main.test2()
+# m.test3()
+# m.exercise1()
+# m.test4()
+# m.exercise2()
+# m.test5()
+# m.exercise3()
+m.exercise4()
