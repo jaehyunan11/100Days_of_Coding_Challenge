@@ -22,6 +22,26 @@
 # print(len("Jaehyun"))
 # print(len(input ("What is your name?")))
 
-name = input("What is your name?")
-length = len(name)
-print(length)
+# name = input("What is your name?")
+# length = len(name)
+# print(length)
+
+# Don't change the code below
+# a = input("a:")
+# b = input("b:")
+
+# # Write your code below this line
+# c = a
+# a = b
+# b = c
+
+#1. Create a greeting for your porgram
+print("Welcome to the band name generator.")
+#2 Ask the user for the city that they grew up in
+city = input("Which city did you grow up in?\n")
+#3 Ask the user for the name of a pet
+pet = input("What is the name of a pet?\n")
+#4 Combine the name of their city and pet and show them their band name
+print("Your band name could be " + city + " " + pet)
+#5 Make sure the input cursor shows on a new line, 
+# put \n 
