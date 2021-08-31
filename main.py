@@ -84,4 +84,5 @@ m = main
 # m.test1()
 # m.exercise1()
 # m.test2()
-m.exercise2()
+# m.exercise2()
+m.test3()

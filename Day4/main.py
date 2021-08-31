@@ -31,3 +31,9 @@ def exercise2():
 	random_name = random.randint(0, num_items-1)
 	person_who_will_pay = names[random_name]
 	print(f"{person_who_will_pay} is going to buy the meal today!")
+
+def test3():
+	fruits = ["strawberries"]
+	vegtables = ["Spinach"]
+	dirty_dozen = [fruits, vegtables]
+	print(dirty_dozen)
