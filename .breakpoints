@@ -8,11 +8,19 @@
         "index": 0
       }
     ],
+    "Day6/main.py": [
+      {
+        "id": "d8744860-1bf7-4b25-a11a-f57488400db9",
+        "line": 1,
+        "version": 83,
+        "index": 0
+      }
+    ],
     "main.py": [
       {
         "id": "755f6e2e-9677-4b2b-8665-ef8643566a8f",
         "line": 3,
-        "version": 3373,
+        "version": 3426,
         "index": 88
       }
     ]

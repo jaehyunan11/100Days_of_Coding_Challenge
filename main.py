@@ -88,9 +88,9 @@
 # m.exercise3()
 # m.project1()
 
-from Day5 import main
+# from Day5 import main
 
-m = main
+# m = main
 
 # m.test1()
 # m.exercise1()
@@ -99,4 +99,10 @@ m = main
 # m.exercise3()
 # m.exercise4()
 # m.exercise5()
-m.project1()
+# m.project1()
+
+from Day6 import main
+
+m = main
+
+m.my_function()
