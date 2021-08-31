@@ -62,9 +62,9 @@
 # m.exercise4()
 
 
-from Day3 import main
+# from Day3 import main
 
-m = main
+# m = main
 
 # m.test1()
 # m.exercise1()
@@ -75,4 +75,13 @@ m = main
 # m.exercise5()
 # m.exercise6()
 # m.exercise7()
-m.project1()
+# m.project1()
+
+from Day4 import main
+
+m = main
+
+# m.test1()
+# m.exercise1()
+# m.test2()
+m.exercise2()
