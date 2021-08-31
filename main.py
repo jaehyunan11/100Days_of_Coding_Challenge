@@ -77,13 +77,26 @@
 # m.exercise7()
 # m.project1()
 
-from Day4 import main
+# from Day4 import main
 
-m = main
+# m = main
 
 # m.test1()
 # m.exercise1()
 # m.test2()
 # m.exercise2()
 # m.exercise3()
+# m.project1()
+
+from Day5 import main
+
+m = main
+
+# m.test1()
+# m.exercise1()
+# m.exercise2()
+# m.test2()
+# m.exercise3()
+# m.exercise4()
+# m.exercise5()
 m.project1()
