@@ -46,9 +46,9 @@
 # #5 Make sure the input cursor shows on a new line, 
 # # put \n 
 
-from Day2 import main
+# from Day2 import main
 
-m = main
+# m = main
 
 # main.first()
 # main.test1()
@@ -59,4 +59,20 @@ m = main
 # m.exercise2()
 # m.test5()
 # m.exercise3()
-m.exercise4()
+# m.exercise4()
+
+
+from Day3 import main
+
+m = main
+
+# m.test1()
+# m.exercise1()
+# m.test2()
+# m.exercise2()
+# m.exercise3()
+# m.exercise4()
+# m.exercise5()
+# m.exercise6()
+# m.exercise7()
+m.project1()
