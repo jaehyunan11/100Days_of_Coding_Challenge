@@ -7,6 +7,7 @@ def exercise1():
 	end_of_game = False
 	chosen_word = random.choice(hangman_words.word_list)
 	word_length = len(chosen_word)
+	guess_list = []
 	# Lives are 6
 	lives = 6
 	#TODO-1 - Randomly choose a word from the word_list and assign it to a variable called chosen_word
@@ -14,7 +15,7 @@ def exercise1():
 	# So if the chosen_word was "apple", display should be ["_", "_", "_", "_", "_"] with "_" representing each letter to guess
 	print(hangman_art.logo)
 	# Testing code
-	print(f"Psset, the solution is {chosen_word}")
+	# print(f"Psset, the solution is {chosen_word}")
 
 	# Create blanks
 	display = []
@@ -27,27 +28,33 @@ def exercise1():
 	
 	while not end_of_game:
 		guess = input("Guess a letter: ").lower()
-
+		
 		clear()
 
 		if guess in display:
 			print(f"You've already guessed {guess}")
 
+		if guess in guess_list:
+			print(f"You already entered the letter!")
+			lives += 1
+
 		# Check guessed letter
 		for position in range(word_length):
 			letter = chosen_word[position]
-			# print(f"Current position: {position}\n Current letter: {letter}\n Guessed letter: {guess}")
 			if letter == guess:
 				display[position] = letter
 
 		if guess not in chosen_word:
 			print(f"You guessed {guess} that's not in the word. You lose a life.")
+			guess_list.append(guess)
+			print(f"I've tried: {guess_list}")
 			lives -= 1
 			if lives == 0:
 				end_of_game = True
 				print("***********")
 				print("You lose!.")
 				print("***********")
+				print(f"The solution is {chosen_word}")
 
 		print(f"{' '.join(display)}")
 
