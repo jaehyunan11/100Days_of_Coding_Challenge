@@ -114,9 +114,9 @@
 
 # m.exercise1()
 
-from Day8 import main
+# from Day8 import main
 
-m = main
+# m = main
 
 # m.greet()
 # print("\n")
@@ -133,27 +133,37 @@ m = main
 # m.prime_checker(number=n)
 
 
-direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-text = input("Type your message:\n").lower()
-shift = int(input("Type the shift number:\n"))
+# direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+# text = input("Type your message:\n").lower()
+# shift = int(input("Type the shift number:\n"))
 
 # m.caesar(start_text=text, shift_amount=shift, cipher_direction=direction)
 
-from Day8 import art
+# from Day8 import art
 
-print(art.logo)
+# print(art.logo)
 
-should_end = False
-while not should_end:
-	direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
-	text = input("Type your message:\n").lower()
-	shift = int(input("Type the shift number:\n"))
+# should_end = False
+# while not should_end:
+# 	direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+# 	text = input("Type your message:\n").lower()
+# 	shift = int(input("Type the shift number:\n"))
 
-	shift = shift % 26
+# 	shift = shift % 26
 
-	m.caesar(start_text=text, shift_amount= shift, cipher_direction=direction)
+# 	m.caesar(start_text=text, shift_amount= shift, cipher_direction=direction)
 
-	restart = input("Type 'yes' if you want to go again. Otherwise, type 'no'. \n")
-	if restart == 'no':
-		should_end = True
-		print("GoodBye")
+# 	restart = input("Type 'yes' if you want to go again. Otherwise, type 'no'. \n")
+# 	if restart == 'no':
+# 		should_end = True
+# 		print("GoodBye")
+
+
+from Day9 import main
+
+m = main
+
+# m.test1()
+# m.exercise1()
+# m.add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+m.project1()
