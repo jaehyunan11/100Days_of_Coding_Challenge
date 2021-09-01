@@ -7,6 +7,7 @@ authors = ["smileboy11 <<>>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 matplotlib = "^3.4.3"
+replit = "^3.2.4"
 
 [tool.poetry.dev-dependencies]
 

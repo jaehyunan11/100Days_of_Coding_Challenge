@@ -101,8 +101,15 @@
 # m.exercise5()
 # m.project1()
 
-from Day6 import main
+# from Day6 import main
+
+# m = main
+
+# m.my_function()
+
+
+from Day7 import main
 
 m = main
 
-m.my_function()
+m.exercise1()
