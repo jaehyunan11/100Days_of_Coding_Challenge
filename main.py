@@ -188,12 +188,17 @@
 # m = main
 # m.play_game()
 
-from Day12 import game
+# from Day12 import game
 
-# m = main
-# m.game()
-# m.create_enemy()
-g = game
+# # m = main
+# # m.game()
+# # m.create_enemy()
+# g = game
+
+# if __name__ == "__main__":
+# 	game
+
+from Day13 import test
 
 if __name__ == "__main__":
-	game
+	test
