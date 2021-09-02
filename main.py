@@ -169,9 +169,9 @@
 # m.project1()
 
 
-from Day10 import main, logo
+# from Day10 import main, logo
 
-m = main
+# m = main
 
 # m.format_name(input("What is your first name?\n"), input("What is your last name?\n"))
 
@@ -181,4 +181,9 @@ m = main
 # print(days)
 
 # m.format_name()
-m.project1()
+# m.project1()
+
+from Day11 import main
+
+m = main
+m.play_game()
