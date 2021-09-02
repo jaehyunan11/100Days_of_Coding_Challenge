@@ -183,7 +183,17 @@
 # m.format_name()
 # m.project1()
 
-from Day11 import main
+# from Day11 import main
 
-m = main
-m.play_game()
+# m = main
+# m.play_game()
+
+from Day12 import game
+
+# m = main
+# m.game()
+# m.create_enemy()
+g = game
+
+if __name__ == "__main__":
+	game
