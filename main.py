@@ -159,11 +159,26 @@
 # 		print("GoodBye")
 
 
-from Day9 import main
+# from Day9 import main
 
-m = main
+# m = main
 
 # m.test1()
 # m.exercise1()
 # m.add_new_country("Russia", 2, ["Moscow", "Saint Petersburg"])
+# m.project1()
+
+
+from Day10 import main, logo
+
+m = main
+
+# m.format_name(input("What is your first name?\n"), input("What is your last name?\n"))
+
+# year = int(input("Enter a year: "))
+# month = int(input("Enter a month: "))
+# days = m.days_in_month(year, month)
+# print(days)
+
+# m.format_name()
 m.project1()
