@@ -198,7 +198,12 @@
 # if __name__ == "__main__":
 # 	game
 
-from Day13 import test
+# from Day13 import test
+
+# if __name__ == "__main__":
+# 	test
+
+from Day14 import test
 
 if __name__ == "__main__":
 	test
